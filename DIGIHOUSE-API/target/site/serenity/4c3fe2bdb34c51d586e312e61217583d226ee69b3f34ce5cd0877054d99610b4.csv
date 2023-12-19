@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Get Reason","As an admin I can get reason with a valid path","SUCCESS","2023-12-18T11:07:23.19851+07:00[Asia/Jakarta]","0.0","1.46"
+"Get Reason","As an admin I can't get reason without path","SUCCESS","2023-12-18T11:07:24.688354+07:00[Asia/Jakarta]","0.0","1.15"

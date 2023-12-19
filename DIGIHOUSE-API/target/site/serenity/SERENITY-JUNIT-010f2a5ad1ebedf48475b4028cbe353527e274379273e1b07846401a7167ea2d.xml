@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="Get User List" skipped="0" tests="2" time="2.49" timestamp="2023-12-18 11:07:03"><testcase name="As an admin I can get user list with a valid path"/><testcase name="As an admin I can't get user list without path"/></testsuite>

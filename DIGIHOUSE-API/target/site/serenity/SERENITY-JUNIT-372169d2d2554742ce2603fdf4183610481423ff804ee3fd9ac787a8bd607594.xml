@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="Get All Province" skipped="0" tests="2" time="0.52" timestamp="2023-12-18 11:17:26"><testcase name="As a user I can get all province data with a valid path"/><testcase name="As a user I can't get all province data with an invalid path"/></testsuite>

@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Delete User By ID","As an admin I can delete user by ID with a valid path","SUCCESS","2023-12-18T11:06:49.009549+07:00[Asia/Jakarta]","0.0","1.95"
+"Delete User By ID","As an admin I can't delete user by ID without path","SUCCESS","2023-12-18T11:06:50.97989+07:00[Asia/Jakarta]","0.0","1.16"
+"Delete User By ID","As an admin I can't delete user by ID with invalid ID","SUCCESS","2023-12-18T11:06:52.156154+07:00[Asia/Jakarta]","0.0","1.33"

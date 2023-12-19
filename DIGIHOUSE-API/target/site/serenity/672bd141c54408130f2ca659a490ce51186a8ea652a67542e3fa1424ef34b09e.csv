@@ -1,0 +1,8 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Payment Checkout","As a user I can payment checkout with a valid path","SUCCESS","2023-12-18T11:14:46.798598+07:00[Asia/Jakarta]","0.0","5.48"
+"Payment Checkout","As a user I can't payment checkout without path","SUCCESS","2023-12-18T11:14:52.294073+07:00[Asia/Jakarta]","0.0","1.29"
+"Payment Checkout","As a user I can't payment checkout if I don't fill in the payment checkout request","SUCCESS","2023-12-18T11:14:53.593722+07:00[Asia/Jakarta]","0.0","1.24"
+"Payment Checkout","As a user I can't payment checkout if I don't fill in the payment method ID request","SUCCESS","2023-12-18T11:14:54.850053+07:00[Asia/Jakarta]","0.0","1.21"
+"Payment Checkout","As a user I can't payment checkout if I don't fill in the installment ID request","SUCCESS","2023-12-18T11:14:56.07316+07:00[Asia/Jakarta]","0.0","1.25"
+"Payment Checkout","As a user I can't payment checkout if I don't fill in the data payment bank code request","SUCCESS","2023-12-18T11:14:57.358032+07:00[Asia/Jakarta]","0.0","1.18"
+"Payment Checkout","As a user I can't payment checkout if the installment ID payment has previously been made","SUCCESS","2023-12-18T11:14:58.555563+07:00[Asia/Jakarta]","0.0","1.71"

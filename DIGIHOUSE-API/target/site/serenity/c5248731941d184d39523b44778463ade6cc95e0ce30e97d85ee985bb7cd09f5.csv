@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Delete Favorite By ID","As a user I can delete favorite by ID with a valid path","SUCCESS","2023-12-18T11:14:33.68662+07:00[Asia/Jakarta]","0.0","1.64"
+"Delete Favorite By ID","As a user I can't delete favorite by ID without path","SUCCESS","2023-12-18T11:14:35.336188+07:00[Asia/Jakarta]","0.0","1.26"
+"Delete Favorite By ID","As a user I can't delete favorite by ID with invalid ID","SUCCESS","2023-12-18T11:14:36.624371+07:00[Asia/Jakarta]","0.0","1.33"

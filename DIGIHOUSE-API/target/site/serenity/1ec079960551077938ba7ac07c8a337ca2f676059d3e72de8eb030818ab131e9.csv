@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Resend OTP","As a user I can resend OTP with a valid email","SUCCESS","2023-12-18T11:14:06.142055+07:00[Asia/Jakarta]","0.0","3.09"
+"Resend OTP","As a user I can't resend OTP without path","SUCCESS","2023-12-18T11:14:09.245211+07:00[Asia/Jakarta]","0.0","0.26"
+"Resend OTP","As a user I can't resend OTP if I don't fill in the resend OTP request","SUCCESS","2023-12-18T11:14:09.516753+07:00[Asia/Jakarta]","0.0","0.23"
+"Resend OTP","As a user I can't resend OTP with an invalid email","SUCCESS","2023-12-18T11:14:09.755731+07:00[Asia/Jakarta]","0.0","0.32"

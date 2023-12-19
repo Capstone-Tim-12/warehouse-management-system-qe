@@ -1,0 +1,91 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$ref": "#/definitions/Welcome",
+  "definitions": {
+    "Welcome": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "status": {
+          "type": "boolean"
+        },
+        "message": {
+          "type": "string"
+        },
+        "data": {
+          "$ref": "#/definitions/Data"
+        }
+      },
+      "required": [
+        "data",
+        "message",
+        "status"
+      ],
+      "title": "Welcome"
+    },
+    "Data": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "warehouseId": {
+          "type": "integer"
+        },
+        "warehouseName": {
+          "type": "string"
+        },
+        "warehousePrice": {
+          "type": "integer"
+        },
+        "warehouseAdreess": {
+          "type": "string"
+        },
+        "warehouseDistrict": {
+          "type": "string"
+        },
+        "warehouseRegency": {
+          "type": "string"
+        },
+        "warehouseProvince": {
+          "type": "string"
+        },
+        "warehouseImage": {
+          "type": "string",
+          "format": "uri",
+          "qt-uri-protocols": [
+            "https"
+          ],
+          "qt-uri-extensions": [
+            ".jpg"
+          ]
+        },
+        "username": {
+          "type": "string"
+        },
+        "isVerifyIdentity": {
+          "type": "boolean"
+        },
+        "rentalDuration": {
+          "type": "integer"
+        },
+        "paymentScheme": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "isVerifyIdentity",
+        "paymentScheme",
+        "rentalDuration",
+        "username",
+        "warehouseAdreess",
+        "warehouseDistrict",
+        "warehouseId",
+        "warehouseImage",
+        "warehouseName",
+        "warehousePrice",
+        "warehouseProvince",
+        "warehouseRegency"
+      ],
+      "title": "Data"
+    }
+  }
+}

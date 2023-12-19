@@ -1,0 +1,133 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$ref": "#/definitions/Welcome",
+  "definitions": {
+    "Welcome": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "status": {
+          "type": "boolean"
+        },
+        "message": {
+          "type": "string"
+        },
+        "data": {
+          "$ref": "#/definitions/Data"
+        }
+      },
+      "required": [
+        "data",
+        "message",
+        "status"
+      ],
+      "title": "Welcome"
+    },
+    "Data": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "provinceId": {
+          "type": "string",
+          "format": "integer"
+        },
+        "provinceName": {
+          "type": "string"
+        },
+        "regencyId": {
+          "type": "string",
+          "format": "integer"
+        },
+        "regencyName": {
+          "type": "string"
+        },
+        "districtId": {
+          "type": "string",
+          "format": "integer"
+        },
+        "districtName": {
+          "type": "string"
+        },
+        "address": {
+          "type": "string"
+        },
+        "surfaceArea": {
+          "type": "integer"
+        },
+        "buildingArea": {
+          "type": "integer"
+        },
+        "owner": {
+          "type": "string"
+        },
+        "phoneNumber": {
+          "type": "string"
+        },
+        "longitude": {
+          "type": "number"
+        },
+        "latitude": {
+          "type": "number"
+        },
+        "status": {
+          "type": "string"
+        },
+        "weeklyPrice": {
+          "type": "integer"
+        },
+        "monthlyPrice": {
+          "type": "integer"
+        },
+        "annualPrice": {
+          "type": "integer"
+        },
+        "warehouseType": {
+          "type": "string"
+        },
+        "image": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "format": "uri",
+            "qt-uri-protocols": [
+              "http"
+            ],
+            "qt-uri-extensions": [
+              ".jpg"
+            ]
+          }
+        }
+      },
+      "required": [
+        "address",
+        "annualPrice",
+        "buildingArea",
+        "description",
+        "districtId",
+        "districtName",
+        "image",
+        "latitude",
+        "longitude",
+        "monthlyPrice",
+        "name",
+        "owner",
+        "phoneNumber",
+        "provinceId",
+        "provinceName",
+        "regencyId",
+        "regencyName",
+        "status",
+        "surfaceArea",
+        "warehouseType",
+        "weeklyPrice"
+      ],
+      "title": "Data"
+    }
+  }
+}

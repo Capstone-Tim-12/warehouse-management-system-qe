@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Get List Transaction Warehouse","As an admin I can get list transaction warehouse with a valid path","SUCCESS","2023-12-18T11:07:18.08458+07:00[Asia/Jakarta]","0.0","1.45"
+"Get List Transaction Warehouse","As an admin I can't get list transaction warehouse without path","SUCCESS","2023-12-18T11:07:19.56127+07:00[Asia/Jakarta]","0.0","1.14"

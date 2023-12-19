@@ -1,0 +1,8 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Login User","As a user I can login with a valid credentials","SUCCESS","2023-12-18T11:13:56.75273+07:00[Asia/Jakarta]","0.0","0.91"
+"Login User","As a user I can't login without path","SUCCESS","2023-12-18T11:13:57.685261+07:00[Asia/Jakarta]","0.0","0.23"
+"Login User","As a user I can't login if I don't fill in the login request","SUCCESS","2023-12-18T11:13:57.923035+07:00[Asia/Jakarta]","0.0","0.23"
+"Login User","As a user I can't login if I don't fill in the email request","SUCCESS","2023-12-18T11:13:58.163031+07:00[Asia/Jakarta]","0.0","0.19"
+"Login User","As a user I can't login if I don't fill in the password request","SUCCESS","2023-12-18T11:13:58.366391+07:00[Asia/Jakarta]","0.0","0.22"
+"Login User","As a user I can't login with an invalid email","SUCCESS","2023-12-18T11:13:58.599132+07:00[Asia/Jakarta]","0.0","0.34"
+"Login User","As a user I can't login with an invalid password","SUCCESS","2023-12-18T11:13:58.952818+07:00[Asia/Jakarta]","0.0","0.73"

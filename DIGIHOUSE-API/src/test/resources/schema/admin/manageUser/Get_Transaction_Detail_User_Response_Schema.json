@@ -1,0 +1,86 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$ref": "#/definitions/Welcome",
+  "definitions": {
+    "Welcome": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "status": {
+          "type": "boolean"
+        },
+        "message": {
+          "type": "string"
+        },
+        "data": {
+          "$ref": "#/definitions/Data"
+        }
+      },
+      "required": [
+        "data",
+        "message",
+        "status"
+      ],
+      "title": "Welcome"
+    },
+    "Data": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "warehouseName": {
+          "type": "string"
+        },
+        "username": {
+          "type": "string"
+        },
+        "isVerifyIdentity": {
+          "type": "boolean"
+        },
+        "address": {
+          "type": "string"
+        },
+        "districName": {
+          "type": "string"
+        },
+        "regencyName": {
+          "type": "string"
+        },
+        "duration": {
+          "type": "integer"
+        },
+        "paymentScheme": {
+          "type": "string"
+        },
+        "entryDate": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "outDate": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "totalPayment": {
+          "type": "integer"
+        },
+        "instalment": {
+          "type": "null"
+        }
+      },
+      "required": [
+        "address",
+        "districName",
+        "duration",
+        "entryDate",
+        "instalment",
+        "isVerifyIdentity",
+        "outDate",
+        "paymentScheme",
+        "regencyName",
+        "totalPayment",
+        "username",
+        "warehouseName"
+      ],
+      "title": "Data"
+    }
+  }
+}

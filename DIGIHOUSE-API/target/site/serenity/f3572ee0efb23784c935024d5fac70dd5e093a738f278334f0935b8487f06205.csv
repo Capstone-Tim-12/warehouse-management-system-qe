@@ -1,0 +1,7 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Get Payment Schema","As a user I can get payment schema with a valid path","SUCCESS","2023-12-18T11:13:48.922655+07:00[Asia/Jakarta]","0.0","1.29"
+"Get Payment Schema","As a user I can't get payment schema without path","SUCCESS","2023-12-18T11:13:50.223032+07:00[Asia/Jakarta]","0.0","1.16"
+"Rental Application","As a user I can rental application with a valid path","SUCCESS","2023-12-18T11:13:51.400116+07:00[Asia/Jakarta]","0.0","1.83"
+"Rental Application","As a user I can't rental application without path","SUCCESS","2023-12-18T11:13:53.238382+07:00[Asia/Jakarta]","0.0","1.1"
+"Rental Application","As a user I can't rental application if I don't fill in the rental application request","SUCCESS","2023-12-18T11:13:54.349423+07:00[Asia/Jakarta]","0.0","1.15"
+"Rental Application","As a user I can't rental application if the submission date is less than the current date","SUCCESS","2023-12-18T11:13:55.512789+07:00[Asia/Jakarta]","0.0","1.21"

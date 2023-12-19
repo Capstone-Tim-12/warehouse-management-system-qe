@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="Get Transaction Info" skipped="0" tests="2" time="2.97" timestamp="2023-12-18 11:17:39"><testcase name="As a user I can get transaction info with a valid path"/><testcase name="As a user I can't get transaction info without path"/></testsuite>

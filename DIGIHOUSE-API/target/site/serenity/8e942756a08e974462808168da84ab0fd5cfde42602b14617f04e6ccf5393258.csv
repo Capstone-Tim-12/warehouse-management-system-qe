@@ -1,0 +1,6 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Upload Photo","As a user I can upload photo with a valid path","SUCCESS","2023-12-18T11:15:19.486775+07:00[Asia/Jakarta]","0.0","3.89"
+"Upload Photo","As a user I can't upload photo without path","SUCCESS","2023-12-18T11:15:23.397734+07:00[Asia/Jakarta]","0.0","1.27"
+"Upload Photo","As a user I can't upload photo if I don't fill in the upload photo request","SUCCESS","2023-12-18T11:15:24.685682+07:00[Asia/Jakarta]","0.0","1.08"
+"Upload Photo","As a user I can't upload photo if the photo request format is not appropriate (e.g. other than","SUCCESS","2023-12-18T11:15:25.776633+07:00[Asia/Jakarta]","0.0","1.3"
+"Upload Photo","As a user I can't upload photo if size more than 5 MB","SUCCESS","2023-12-18T11:15:27.086411+07:00[Asia/Jakarta]","0.0","119.02"

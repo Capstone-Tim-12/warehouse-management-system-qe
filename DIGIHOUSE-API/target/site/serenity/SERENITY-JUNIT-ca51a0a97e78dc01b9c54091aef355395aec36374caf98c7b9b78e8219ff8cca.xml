@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="Get My Warehouse Submitted" skipped="0" tests="2" time="3.56" timestamp="2023-12-18 11:17:36"><testcase name="As a user I can get my warehouse submitted with a valid path"/><testcase name="As a user I can't get my warehouse submitted without path"/></testsuite>

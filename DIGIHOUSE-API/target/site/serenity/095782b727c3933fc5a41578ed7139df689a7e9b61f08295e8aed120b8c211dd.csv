@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Get Transaction Detail User","As an admin I can get transaction detail user with a valid path","SUCCESS","2023-12-18T11:06:56.666008+07:00[Asia/Jakarta]","0.0","2.21"
+"Get Transaction Detail User","As an admin I can't get transaction detail user without path","SUCCESS","2023-12-18T11:06:58.889199+07:00[Asia/Jakarta]","0.0","1.15"

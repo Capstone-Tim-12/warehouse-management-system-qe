@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Get Bank Virtual Account","As a user I can get bank virtual account with a valid path","SUCCESS","2023-12-18T11:14:41.447289+07:00[Asia/Jakarta]","0.0","1.49"
+"Get Bank Virtual Account","As a user I can't get bank virtual account without path","SUCCESS","2023-12-18T11:14:42.948525+07:00[Asia/Jakarta]","0.0","1.17"

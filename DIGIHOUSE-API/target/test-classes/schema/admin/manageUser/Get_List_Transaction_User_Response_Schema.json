@@ -1,0 +1,97 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$ref": "#/definitions/Welcome",
+  "definitions": {
+    "Welcome": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "status": {
+          "type": "boolean"
+        },
+        "message": {
+          "type": "string"
+        },
+        "data": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Datum"
+          }
+        },
+        "pagination": {
+          "$ref": "#/definitions/Pagination"
+        }
+      },
+      "required": [
+        "data",
+        "message",
+        "pagination",
+        "status"
+      ],
+      "title": "Welcome"
+    },
+    "Datum": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "transactionId": {
+          "type": "string"
+        },
+        "rentalDuration": {
+          "type": "integer"
+        },
+        "paymentScheme": {
+          "$ref": "#/definitions/PaymentScheme"
+        },
+        "paymentTotal": {
+          "type": "integer"
+        },
+        "warehouseName": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "paymentScheme",
+        "paymentTotal",
+        "rentalDuration",
+        "transactionId",
+        "warehouseName"
+      ],
+      "title": "Datum"
+    },
+    "Pagination": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "page": {
+          "type": "integer"
+        },
+        "limit": {
+          "type": "integer"
+        },
+        "totalData": {
+          "type": "integer"
+        },
+        "totalPage": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "limit",
+        "page",
+        "totalData",
+        "totalPage"
+      ],
+      "title": "Pagination"
+    },
+    "PaymentScheme": {
+      "type": "string",
+      "enum": [
+        "tahunan",
+        "mingguan",
+        "bulanan"
+      ],
+      "title": "PaymentScheme"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Get All Warehouse","As a user I can get all warehouse with a valid path","SUCCESS","2023-12-18T11:14:17.333821+07:00[Asia/Jakarta]","0.0","2.06"
+"Get All Warehouse","As a user I can't get all warehouse without path","SUCCESS","2023-12-18T11:14:19.399881+07:00[Asia/Jakarta]","0.0","1.13"
+"Get User Info","As a user I can get user profile data with a valid path","SUCCESS","2023-12-18T11:14:20.551497+07:00[Asia/Jakarta]","0.0","1.66"
+"Get User Info","As a user I can't get user profile data with an invalid path","SUCCESS","2023-12-18T11:14:22.225223+07:00[Asia/Jakarta]","0.0","1.21"
+"Get Warehouse By ID","As a user I can't get warehouse by ID without path","SUCCESS","2023-12-18T11:14:25.730437+07:00[Asia/Jakarta]","0.0","1.1"
+"Get Warehouse By ID","As a user I can't get warehouse data with an invalid ID (by entering the ID numbers, letters & symbols at the same time)","SUCCESS","2023-12-18T11:14:26.837363+07:00[Asia/Jakarta]","0.0","1.12"
+"Get Warehouse By ID","As a user I can't get warehouse data with an invalid ID (by entering an ID number that does not yet exist in the database)","SUCCESS","2023-12-18T11:14:27.982179+07:00[Asia/Jakarta]","0.0","1.38"

@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="Get Bank Virtual Account" skipped="0" tests="2" time="2.65" timestamp="2023-12-18 11:14:41"><testcase name="As a user I can get bank virtual account with a valid path"/><testcase name="As a user I can't get bank virtual account without path"/></testsuite>

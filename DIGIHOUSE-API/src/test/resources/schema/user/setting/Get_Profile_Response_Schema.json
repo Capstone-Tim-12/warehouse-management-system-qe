@@ -1,0 +1,121 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$ref": "#/definitions/Welcome",
+  "definitions": {
+    "Welcome": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "status": {
+          "type": "boolean"
+        },
+        "message": {
+          "type": "string"
+        },
+        "data": {
+          "$ref": "#/definitions/Data"
+        }
+      },
+      "required": [
+        "data",
+        "message",
+        "status"
+      ],
+      "title": "Welcome"
+    },
+    "Data": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "username": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        },
+        "isVerifyAccount": {
+          "type": "boolean"
+        },
+        "isVerifyIdentity": {
+          "type": "boolean"
+        },
+        "address": {
+          "type": "string"
+        },
+        "country": {
+          "type": "string"
+        },
+        "photo": {
+          "type": "string"
+        },
+        "nik": {
+          "type": "string"
+        },
+        "fullName": {
+          "type": "string"
+        },
+        "gender": {
+          "type": "string"
+        },
+        "placeOfBirth": {
+          "type": "string"
+        },
+        "dateBirth": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "work": {
+          "type": "string"
+        },
+        "citizenship": {
+          "type": "string"
+        },
+        "provinceID": {
+          "type": "string"
+        },
+        "provinceName": {
+          "type": "string"
+        },
+        "regencyID": {
+          "type": "string"
+        },
+        "regencyName": {
+          "type": "string"
+        },
+        "districtID": {
+          "type": "string"
+        },
+        "districtName": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "address",
+        "citizenship",
+        "country",
+        "dateBirth",
+        "districtID",
+        "districtName",
+        "email",
+        "fullName",
+        "gender",
+        "id",
+        "isVerifyAccount",
+        "isVerifyIdentity",
+        "nik",
+        "photo",
+        "placeOfBirth",
+        "provinceID",
+        "provinceName",
+        "regencyID",
+        "regencyName",
+        "username",
+        "work"
+      ],
+      "title": "Data"
+    }
+  }
+}

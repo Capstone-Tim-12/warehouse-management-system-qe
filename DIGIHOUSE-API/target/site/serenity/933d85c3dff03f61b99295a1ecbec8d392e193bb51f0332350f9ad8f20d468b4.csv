@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Get User List","As an admin I can get user list with a valid path","SUCCESS","2023-12-18T11:07:03.84159+07:00[Asia/Jakarta]","0.0","1.33"
+"Get User List","As an admin I can't get user list without path","SUCCESS","2023-12-18T11:07:05.180112+07:00[Asia/Jakarta]","0.0","1.16"

@@ -1,0 +1,6 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Login User","As a user I can login with a valid credentials","SUCCESS","2023-12-18T11:13:56.75273+07:00[Asia/Jakarta]","0.0","0.91"
+"Get All District","As a user I can get all district data with a valid path","SUCCESS","2023-12-18T11:17:26.141763+07:00[Asia/Jakarta]","0.0","0.52"
+"Get All Province","As a user I can get all province data with a valid path","SUCCESS","2023-12-18T11:17:26.911243+07:00[Asia/Jakarta]","0.0","0.29"
+"Get All Regency","As a user I can get all regency data with a valid path","SUCCESS","2023-12-18T11:17:27.454377+07:00[Asia/Jakarta]","0.0","0.54"
+"Register Data User","As a user I can register data user with a valid input","SUCCESS","2023-12-18T11:17:28.234944+07:00[Asia/Jakarta]","0.0","0.85"

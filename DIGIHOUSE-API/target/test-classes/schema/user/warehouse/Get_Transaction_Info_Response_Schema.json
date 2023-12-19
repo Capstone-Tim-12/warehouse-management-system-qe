@@ -1,0 +1,62 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$ref": "#/definitions/Welcome",
+  "definitions": {
+    "Welcome": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "status": {
+          "type": "boolean"
+        },
+        "message": {
+          "type": "string"
+        },
+        "data": {
+          "$ref": "#/definitions/Data"
+        }
+      },
+      "required": [
+        "data",
+        "message",
+        "status"
+      ],
+      "title": "Welcome"
+    },
+    "Data": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "dateEntry": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "dateOut": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "paymentScheme": {
+          "type": "string"
+        },
+        "duration": {
+          "type": "integer"
+        },
+        "username": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "dateEntry",
+        "dateOut",
+        "duration",
+        "email",
+        "paymentScheme",
+        "username"
+      ],
+      "title": "Data"
+    }
+  }
+}

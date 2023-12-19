@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Get Avatar","As a user I can get avatar data with a valid path","SUCCESS","2023-12-18T11:15:00.278173+07:00[Asia/Jakarta]","0.0","1.47"
+"Get Avatar","As a user I can't get avatar data with an invalid path","SUCCESS","2023-12-18T11:15:01.763028+07:00[Asia/Jakarta]","0.0","1.26"

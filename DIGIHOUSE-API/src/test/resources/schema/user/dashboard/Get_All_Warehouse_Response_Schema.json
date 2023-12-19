@@ -1,0 +1,136 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$ref": "#/definitions/Welcome",
+  "definitions": {
+    "Welcome": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "status": {
+          "type": "boolean"
+        },
+        "message": {
+          "type": "string"
+        },
+        "data": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Datum"
+          }
+        },
+        "pagination": {
+          "$ref": "#/definitions/Pagination"
+        }
+      },
+      "required": [
+        "data",
+        "message",
+        "pagination",
+        "status"
+      ],
+      "title": "Welcome"
+    },
+    "Datum": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "name": {
+          "type": "string"
+        },
+        "districtName": {
+          "type": "string"
+        },
+        "regencyName": {
+          "type": "string"
+        },
+        "provinceName": {
+          "type": "string"
+        },
+        "surfaceArea": {
+          "type": "integer"
+        },
+        "buildingArea": {
+          "type": "integer"
+        },
+        "weeklyPrice": {
+          "type": "integer"
+        },
+        "monthlyPrice": {
+          "type": "integer"
+        },
+        "annualPrice": {
+          "type": "integer"
+        },
+        "distance": {
+          "type": "number"
+        },
+        "status": {
+          "type": "string"
+        },
+        "warehouseTypeId": {
+          "type": "integer"
+        },
+        "warehouseTypeName": {
+          "type": "string"
+        },
+        "image": {
+          "type": "string",
+          "qt-uri-protocols": [
+            "https"
+          ],
+          "qt-uri-extensions": [
+            ".jpeg",
+            ".jpg",
+            ".png"
+          ]
+        }
+      },
+      "required": [
+        "annualPrice",
+        "buildingArea",
+        "distance",
+        "districtName",
+        "id",
+        "image",
+        "monthlyPrice",
+        "name",
+        "provinceName",
+        "regencyName",
+        "status",
+        "surfaceArea",
+        "warehouseTypeId",
+        "warehouseTypeName",
+        "weeklyPrice"
+      ],
+      "title": "Datum"
+    },
+    "Pagination": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "page": {
+          "type": "integer"
+        },
+        "limit": {
+          "type": "integer"
+        },
+        "totalData": {
+          "type": "integer"
+        },
+        "totalPage": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "limit",
+        "page",
+        "totalData",
+        "totalPage"
+      ],
+      "title": "Pagination"
+    }
+  }
+}

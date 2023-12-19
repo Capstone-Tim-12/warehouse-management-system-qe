@@ -1,0 +1,94 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$ref": "#/definitions/Welcome",
+  "definitions": {
+    "Welcome": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "status": {
+          "type": "boolean"
+        },
+        "message": {
+          "type": "string"
+        },
+        "data": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Datum"
+          }
+        },
+        "pagination": {
+          "$ref": "#/definitions/Pagination"
+        }
+      },
+      "required": [
+        "data",
+        "message",
+        "pagination",
+        "status"
+      ],
+      "title": "Welcome"
+    },
+    "Datum": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "userId": {
+          "type": "integer"
+        },
+        "username": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        },
+        "photo": {
+          "type": "string",
+          "qt-uri-protocols": [
+            "https"
+          ],
+          "qt-uri-extensions": [
+            ".png"
+          ]
+        },
+        "isVerifyIdentity": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "email",
+        "isVerifyIdentity",
+        "photo",
+        "userId",
+        "username"
+      ],
+      "title": "Datum"
+    },
+    "Pagination": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "page": {
+          "type": "integer"
+        },
+        "limit": {
+          "type": "integer"
+        },
+        "totalData": {
+          "type": "integer"
+        },
+        "totalPage": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "limit",
+        "page",
+        "totalData",
+        "totalPage"
+      ],
+      "title": "Pagination"
+    }
+  }
+}

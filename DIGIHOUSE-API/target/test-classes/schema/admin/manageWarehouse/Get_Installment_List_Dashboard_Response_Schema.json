@@ -1,0 +1,94 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$ref": "#/definitions/Welcome",
+  "definitions": {
+    "Welcome": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "status": {
+          "type": "boolean"
+        },
+        "message": {
+          "type": "string"
+        },
+        "data": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Datum"
+          }
+        },
+        "pagination": {
+          "$ref": "#/definitions/Pagination"
+        }
+      },
+      "required": [
+        "data",
+        "message",
+        "pagination",
+        "status"
+      ],
+      "title": "Welcome"
+    },
+    "Datum": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "instalmentId": {
+          "type": "integer"
+        },
+        "dueDate": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "nominal": {
+          "type": "integer"
+        },
+        "status": {
+          "$ref": "#/definitions/Status"
+        }
+      },
+      "required": [
+        "dueDate",
+        "instalmentId",
+        "nominal",
+        "status"
+      ],
+      "title": "Datum"
+    },
+    "Pagination": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "page": {
+          "type": "integer"
+        },
+        "limit": {
+          "type": "integer"
+        },
+        "totalData": {
+          "type": "integer"
+        },
+        "totalPage": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "limit",
+        "page",
+        "totalData",
+        "totalPage"
+      ],
+      "title": "Pagination"
+    },
+    "Status": {
+      "type": "string",
+      "enum": [
+        "dibayar",
+        "menunggu pembayaran",
+        "belum dibayar"
+      ],
+      "title": "Status"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="1" name="Get Warehouse By ID" skipped="0" tests="4" time="5.78" timestamp="2023-12-18 11:14:23"><testcase name="As a user I can get warehouse by ID with a valid path"><failure message="1 expectation failed.&#10;Response body doesn't match expectation.&#10;Expected: The content to match the given JSON schema.&#10;warning: the following keywords are unknown and will be ignored: [qt-uri-extensions, qt-uri-protocols]&#10;    level: &quot;warning&quot;&#10;    schema: {&quot;loadingURI&quot;:&quot;#&quot;,&quot;pointer&quot;:&quot;/definitions/Data/properties/image/items&quot;}&#10;    domain: &quot;syntax&quot;&#10;    ignored: [&quot;qt-uri-extensions&quot;,&quot;qt-uri-protocols&quot;]&#10;error: object instance has properties which are not allowed by the schema: [&quot;warehouseTypeId&quot;]&#10;    level: &quot;error&quot;&#10;    schema: {&quot;loadingURI&quot;:&quot;#&quot;,&quot;pointer&quot;:&quot;/definitions/Data&quot;}&#10;    instance: {&quot;pointer&quot;:&quot;/data&quot;}&#10;    domain: &quot;validation&quot;&#10;    keyword: &quot;additionalProperties&quot;&#10;    unwanted: [&quot;warehouseTypeId&quot;]&#10;&#10;  Actual: {&quot;status&quot;:true,&quot;message&quot;:&quot;Success&quot;,&quot;data&quot;:{&quot;name&quot;:&quot;Distribution Warehouse&quot;,&quot;description&quot;:&quot;The warehouse is located in a strategic area and has close access to urban areas&quot;,&quot;provinceId&quot;:&quot;51&quot;,&quot;provinceName&quot;:&quot;BALI&quot;,&quot;regencyId&quot;:&quot;5171&quot;,&quot;regencyName&quot;:&quot;KOTA DENPASAR&quot;,&quot;districtId&quot;:&quot;5171010&quot;,&quot;districtName&quot;:&quot;DENPASAR SELATAN&quot;,&quot;address&quot;:&quot;Jln Denpasar Bali&quot;,&quot;surfaceArea&quot;:2000,&quot;buildingArea&quot;:3000,&quot;owner&quot;:&quot;Mia Aprilia Satya&quot;,&quot;phoneNumber&quot;:&quot;085159932141&quot;,&quot;longitude&quot;:106.8456,&quot;latitude&quot;:-6.2088,&quot;status&quot;:&quot;tidak tersedia&quot;,&quot;weeklyPrice&quot;:1153847,&quot;monthlyPrice&quot;:5000000,&quot;annualPrice&quot;:60000000,&quot;warehouseTypeId&quot;:2,&quot;warehouseType&quot;:&quot;sedang&quot;,&quot;image&quot;:[&quot;https://www.dropbox.com/scl/fi/ggbnz3alfwh55s7hxx52y/file_xyVWYGUvLLFUsTJXHtKL.jpeg?rlkey=92z0l1y4u3cz4stsmypzork4q\u0026raw=1&quot;]}}&#10;&#10;" type="java.lang.AssertionError">1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+warning: the following keywords are unknown and will be ignored: [qt-uri-extensions, qt-uri-protocols]
+    level: "warning"
+    schema: {"loadingURI":"#","pointer":"/definitions/Data/properties/image/items"}
+    domain: "syntax"
+    ignored: ["qt-uri-extensions","qt-uri-protocols"]
+error: object instance has properties which are not allowed by the schema: ["warehouseTypeId"]
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/definitions/Data"}
+    instance: {"pointer":"/data"}
+    domain: "validation"
+    keyword: "additionalProperties"
+    unwanted: ["warehouseTypeId"]
+
+  Actual: {"status":true,"message":"Success","data":{"name":"Distribution Warehouse","description":"The warehouse is located in a strategic area and has close access to urban areas","provinceId":"51","provinceName":"BALI","regencyId":"5171","regencyName":"KOTA DENPASAR","districtId":"5171010","districtName":"DENPASAR SELATAN","address":"Jln Denpasar Bali","surfaceArea":2000,"buildingArea":3000,"owner":"Mia Aprilia Satya","phoneNumber":"085159932141","longitude":106.8456,"latitude":-6.2088,"status":"tidak tersedia","weeklyPrice":1153847,"monthlyPrice":5000000,"annualPrice":60000000,"warehouseTypeId":2,"warehouseType":"sedang","image":["https://www.dropbox.com/scl/fi/ggbnz3alfwh55s7hxx52y/file_xyVWYGUvLLFUsTJXHtKL.jpeg?rlkey=92z0l1y4u3cz4stsmypzork4q\u0026raw=1"]}}
+
+</failure><system-err>1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+warning: the following keywords are unknown and will be ignored: [qt-uri-extensions, qt-uri-protocols]
+    level: "warning"
+    schema: {"loadingURI":"#","pointer":"/definitions/Data/properties/image/items"}
+    domain: "syntax"
+    ignored: ["qt-uri-extensions","qt-uri-protocols"]
+error: object instance has properties which are not allowed by the schema: ["warehouseTypeId"]
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/definitions/Data"}
+    instance: {"pointer":"/data"}
+    domain: "validation"
+    keyword: "additionalProperties"
+    unwanted: ["warehouseTypeId"]
+
+  Actual: {"status":true,"message":"Success","data":{"name":"Distribution Warehouse","description":"The warehouse is located in a strategic area and has close access to urban areas","provinceId":"51","provinceName":"BALI","regencyId":"5171","regencyName":"KOTA DENPASAR","districtId":"5171010","districtName":"DENPASAR SELATAN","address":"Jln Denpasar Bali","surfaceArea":2000,"buildingArea":3000,"owner":"Mia Aprilia Satya","phoneNumber":"085159932141","longitude":106.8456,"latitude":-6.2088,"status":"tidak tersedia","weeklyPrice":1153847,"monthlyPrice":5000000,"annualPrice":60000000,"warehouseTypeId":2,"warehouseType":"sedang","image":["https://www.dropbox.com/scl/fi/ggbnz3alfwh55s7hxx52y/file_xyVWYGUvLLFUsTJXHtKL.jpeg?rlkey=92z0l1y4u3cz4stsmypzork4q\u0026raw=1"]}}
+
+
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:696)
+io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)
+io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:107)
+io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:238)
+starter.user.dashboard.GetWarehouseByID.lambda$receivedAllWarehouseDataAndMessageSuccessResponseGetWarehouseByID$25(GetWarehouseByID.java:67)
+net.serenitybdd.rest.SerenityRest.restAssuredThat(SerenityRest.java:626)
+starter.user.dashboard.GetWarehouseByID.receivedAllWarehouseDataAndMessageSuccessResponseGetWarehouseByID(GetWarehouseByID.java:67)
+starter.stepdefinitions.user.dashboard.GetWarehouseByIDSteps.receivedAllWarehouseDataAndMessageSuccessResponseGetWarehouseByID(GetWarehouseByIDSteps.java:31)
+io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+io.cucumber.java.Invoker.invoke(Invoker.java:24)
+io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
+io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
+io.cucumber.core.runner.TestStep.run(TestStep.java:56)
+io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:130)
+io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:130)
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)
+io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:259)
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:59)
+</system-err></testcase><testcase name="As a user I can't get warehouse by ID without path"/><testcase name="As a user I can't get warehouse data with an invalid ID (by entering the ID numbers, letters &amp; symbols at the same time)"/><testcase name="As a user I can't get warehouse data with an invalid ID (by entering an ID number that does not yet exist in the database)"/></testsuite>

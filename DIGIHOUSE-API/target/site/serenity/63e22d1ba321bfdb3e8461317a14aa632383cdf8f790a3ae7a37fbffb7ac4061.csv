@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Transaction Rejected","As an admin I can transaction rejected with a valid path","SUCCESS","2023-12-18T11:13:42.294405+07:00[Asia/Jakarta]","0.0","2.54"
+"Transaction Rejected","As an admin I can't transaction rejected without path","SUCCESS","2023-12-18T11:13:44.845217+07:00[Asia/Jakarta]","0.0","1.1"
+"Transaction Rejected","As an admin I can't transaction rejected with invalid transaction ID","SUCCESS","2023-12-18T11:13:45.959905+07:00[Asia/Jakarta]","0.0","1.33"
+"Transaction Rejected","As an admin I can't transaction rejected if the transaction ID has previously been made","SUCCESS","2023-12-18T11:13:47.306427+07:00[Asia/Jakarta]","0.0","1.6"

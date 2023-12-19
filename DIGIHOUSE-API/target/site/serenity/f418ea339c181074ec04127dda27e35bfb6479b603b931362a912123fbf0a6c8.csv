@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Register Data User","As a user I can register data user with a valid input","SUCCESS","2023-12-18T11:17:28.234944+07:00[Asia/Jakarta]","0.0","0.85"
+"Register Data User","As a user I can't register data user without path","SUCCESS","2023-12-18T11:17:29.098036+07:00[Asia/Jakarta]","0.0","0.24"
+"Register Data User","As a user I can't register data user if I don't fill in the register data user request","SUCCESS","2023-12-18T11:17:29.347526+07:00[Asia/Jakarta]","0.0","0.28"
+"Register Data User","As a user I can't register data user with an invalid email","SUCCESS","2023-12-18T11:17:29.635532+07:00[Asia/Jakarta]","0.0","0.33"

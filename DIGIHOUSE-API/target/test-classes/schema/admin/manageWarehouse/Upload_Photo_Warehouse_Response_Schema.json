@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$ref": "#/definitions/Welcome",
+  "definitions": {
+    "Welcome": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "status": {
+          "type": "boolean"
+        },
+        "message": {
+          "type": "string"
+        },
+        "data": {
+          "$ref": "#/definitions/Data"
+        }
+      },
+      "required": [
+        "data",
+        "message",
+        "status"
+      ],
+      "title": "Welcome"
+    },
+    "Data": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "images": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "format": "uri",
+            "qt-uri-protocols": [
+              "https"
+            ],
+            "qt-uri-extensions": [
+              ".jpeg",
+              ".jpg",
+              ".png"
+            ]
+          }
+        }
+      },
+      "required": [
+        "images"
+      ],
+      "title": "Data"
+    }
+  }
+}

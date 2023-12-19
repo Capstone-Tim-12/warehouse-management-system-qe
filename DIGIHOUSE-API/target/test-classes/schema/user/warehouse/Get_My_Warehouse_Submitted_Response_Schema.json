@@ -1,0 +1,107 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$ref": "#/definitions/Welcome",
+  "definitions": {
+    "Welcome": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "status": {
+          "type": "boolean"
+        },
+        "message": {
+          "type": "string"
+        },
+        "data": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Datum"
+          }
+        },
+        "pagination": {
+          "$ref": "#/definitions/Pagination"
+        }
+      },
+      "required": [
+        "data",
+        "message",
+        "pagination",
+        "status"
+      ],
+      "title": "Welcome"
+    },
+    "Datum": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "transactionId": {
+          "type": "string"
+        },
+        "transactionStatus": {
+          "type": "string"
+        },
+        "warehouseId": {
+          "type": "integer"
+        },
+        "warehouseName": {
+          "type": "string"
+        },
+        "warehouseRegency": {
+          "type": "string"
+        },
+        "surfaceArea": {
+          "type": "integer"
+        },
+        "buildingArea": {
+          "type": "integer"
+        },
+        "warehouseImage": {
+          "type": "string",
+          "format": "uri",
+          "qt-uri-protocols": [
+            "https"
+          ],
+          "qt-uri-extensions": [
+            ".jpg"
+          ]
+        }
+      },
+      "required": [
+        "buildingArea",
+        "surfaceArea",
+        "transactionId",
+        "transactionStatus",
+        "warehouseId",
+        "warehouseImage",
+        "warehouseName",
+        "warehouseRegency"
+      ],
+      "title": "Datum"
+    },
+    "Pagination": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "page": {
+          "type": "integer"
+        },
+        "limit": {
+          "type": "integer"
+        },
+        "totalData": {
+          "type": "integer"
+        },
+        "totalPage": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "limit",
+        "page",
+        "totalData",
+        "totalPage"
+      ],
+      "title": "Pagination"
+    }
+  }
+}

@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="Get List Transaction User" skipped="0" tests="2" time="3.12" timestamp="2023-12-18 11:06:53"><testcase name="As an admin I can get list transaction user with a valid path"/><testcase name="As an admin I can't get list transaction user without path"/></testsuite>

@@ -1,0 +1,26 @@
+-------------------------------------------------------------------------------
+Test set: starter.CucumberTestSuite
+-------------------------------------------------------------------------------
+Tests run: 157, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 689.749 s <<< FAILURE! - in starter.CucumberTestSuite
+As a user I can get warehouse by ID with a valid path(Get Warehouse By ID)  Time elapsed: 4.028 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Response body doesn't match expectation.
+Expected: The content to match the given JSON schema.
+warning: the following keywords are unknown and will be ignored: [qt-uri-extensions, qt-uri-protocols]
+    level: "warning"
+    schema: {"loadingURI":"#","pointer":"/definitions/Data/properties/image/items"}
+    domain: "syntax"
+    ignored: ["qt-uri-extensions","qt-uri-protocols"]
+error: object instance has properties which are not allowed by the schema: ["warehouseTypeId"]
+    level: "error"
+    schema: {"loadingURI":"#","pointer":"/definitions/Data"}
+    instance: {"pointer":"/data"}
+    domain: "validation"
+    keyword: "additionalProperties"
+    unwanted: ["warehouseTypeId"]
+
+  Actual: {"status":true,"message":"Success","data":{"name":"Distribution Warehouse","description":"The warehouse is located in a strategic area and has close access to urban areas","provinceId":"51","provinceName":"BALI","regencyId":"5171","regencyName":"KOTA DENPASAR","districtId":"5171010","districtName":"DENPASAR SELATAN","address":"Jln Denpasar Bali","surfaceArea":2000,"buildingArea":3000,"owner":"Mia Aprilia Satya","phoneNumber":"085159932141","longitude":106.8456,"latitude":-6.2088,"status":"tidak tersedia","weeklyPrice":1153847,"monthlyPrice":5000000,"annualPrice":60000000,"warehouseTypeId":2,"warehouseType":"sedang","image":["https://www.dropbox.com/scl/fi/ggbnz3alfwh55s7hxx52y/file_xyVWYGUvLLFUsTJXHtKL.jpeg?rlkey=92z0l1y4u3cz4stsmypzork4q\u0026raw=1"]}}
+
+
+

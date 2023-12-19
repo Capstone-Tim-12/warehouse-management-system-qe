@@ -1,0 +1,143 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$ref": "#/definitions/Welcome",
+  "definitions": {
+    "Welcome": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "status": {
+          "type": "boolean"
+        },
+        "message": {
+          "type": "string"
+        },
+        "data": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Datum"
+          }
+        },
+        "pagination": {
+          "$ref": "#/definitions/Pagination"
+        }
+      },
+      "required": [
+        "data",
+        "message",
+        "pagination",
+        "status"
+      ],
+      "title": "Welcome"
+    },
+    "Datum": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "transactionId": {
+          "type": "string"
+        },
+        "userId": {
+          "type": "integer"
+        },
+        "username": {
+          "$ref": "#/definitions/Username"
+        },
+        "regencyId": {
+          "type": "string",
+          "format": "integer"
+        },
+        "regencyName": {
+          "type": "string"
+        },
+        "provinceId": {
+          "type": "string",
+          "format": "integer"
+        },
+        "provinceName": {
+          "type": "string"
+        },
+        "warehouseName": {
+          "type": "string"
+        },
+        "warehouseId": {
+          "type": "integer"
+        },
+        "duration": {
+          "type": "integer"
+        },
+        "paymentScheme": {
+          "$ref": "#/definitions/PaymentScheme"
+        },
+        "status": {
+          "$ref": "#/definitions/Status"
+        }
+      },
+      "required": [
+        "duration",
+        "paymentScheme",
+        "provinceId",
+        "provinceName",
+        "regencyId",
+        "regencyName",
+        "status",
+        "transactionId",
+        "userId",
+        "username",
+        "warehouseId",
+        "warehouseName"
+      ],
+      "title": "Datum"
+    },
+    "Pagination": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "page": {
+          "type": "integer"
+        },
+        "limit": {
+          "type": "integer"
+        },
+        "totalData": {
+          "type": "integer"
+        },
+        "totalPage": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "limit",
+        "page",
+        "totalData",
+        "totalPage"
+      ],
+      "title": "Pagination"
+    },
+    "PaymentScheme": {
+      "type": "string",
+      "enum": [
+        "mingguan",
+        "bulanan",
+        "tahunan"
+      ],
+      "title": "PaymentScheme"
+    },
+    "Status": {
+      "type": "string",
+      "enum": [
+        "butuh persetujuan",
+        "ditolak",
+        "disetujui"
+      ],
+      "title": "Status"
+    },
+    "Username": {
+      "type": "string",
+      "enum": [
+        "Mia Aprilia Satya"
+      ],
+      "title": "Username"
+    }
+  }
+}

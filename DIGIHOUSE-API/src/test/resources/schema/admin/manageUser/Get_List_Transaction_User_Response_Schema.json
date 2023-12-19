@@ -88,8 +88,8 @@
       "type": "string",
       "enum": [
         "tahunan",
-        "mingguan",
-        "bulanan"
+        "bulanan",
+        "mingguan"
       ],
       "title": "PaymentScheme"
     }

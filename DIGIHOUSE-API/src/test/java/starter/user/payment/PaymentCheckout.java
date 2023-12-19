@@ -36,7 +36,7 @@ public class PaymentCheckout {
     public void sendRequestPaymentCheckout() {
         JSONObject requestBody = new JSONObject();
         int paymentMethodId = 1;
-        int instalmentId = 176;
+        int instalmentId = 435;
         String data = "{\"bankCode\":\"Mandiri\"}";
         requestBody.put("paymentMethodId", paymentMethodId);
         requestBody.put("instalmentId", instalmentId);
@@ -127,7 +127,7 @@ public class PaymentCheckout {
     public void sendBlankPaymentMethodIDRequestPaymentCheckout() {
         JSONObject requestBody = new JSONObject();
         int paymentMethodId = 0;
-        int instalmentId = 176;
+        int instalmentId = 435;
         String data = "{\"bankCode\":\"BCA\"}";
         requestBody.put("paymentMethodId", paymentMethodId);
         requestBody.put("instalmentId", instalmentId);
@@ -169,7 +169,7 @@ public class PaymentCheckout {
     public void sendBlankDataPaymentBankCodeRequestPaymentCheckout() {
         JSONObject requestBody = new JSONObject();
         int paymentMethodId = 1;
-        int instalmentId = 177;
+        int instalmentId = 435;
         String data = "";
         requestBody.put("paymentMethodId", paymentMethodId);
         requestBody.put("instalmentId", instalmentId);
@@ -194,7 +194,7 @@ public class PaymentCheckout {
     public void sendRequestValidInstallmentIDAndInstallmentStatusHasBeenPaid() {
         JSONObject requestBody = new JSONObject();
         int paymentMethodId = 1;
-        int instalmentId = 146;
+        int instalmentId = 436;
         String data = "{\"bankCode\":\"BCA\"}";
         requestBody.put("paymentMethodId", paymentMethodId);
         requestBody.put("instalmentId", instalmentId);

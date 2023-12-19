@@ -16,7 +16,7 @@ public class TransactionApproved {
 
     @Step ( "I set API endpoint valid for transaction approved" )
     public String setAPIEndpointValidTransactionApproved() {
-        return url + "/dasboard/transaction/approval/5IaFdhfxT7ARDwE2wsp2";
+        return url + "/dasboard/transaction/approval/edll7B9drDzwfFicDb2G";
     }
 
     @Step ( "I send request to transaction approved" )
@@ -72,7 +72,7 @@ public class TransactionApproved {
 
     @Step ( "I set API endpoint invalid for can't transaction approved with invalid transaction ID" )
     public String setAPIEndpointInvalidTransactionApprovedWithInvalidTransactionID() {
-        return url + "/dasboard/transaction/approval/5IaFdhfxT7ARDwE2wsp";
+        return url + "/dasboard/transaction/approval/edll7B9drDzwfFicDb2";
     }
 
     @Step ( "I send request to transaction approved with invalid transaction ID" )
@@ -97,7 +97,7 @@ public class TransactionApproved {
 
     @Step ( "I set API endpoint invalid for can't transaction approved if the transaction ID has previously been made" )
     public String setAPIEndpointInvalidTransactionApprovedWithIDHasPreviouslyBeenMade() {
-        return url + "/dasboard/transaction/approval/5IaFdhfxT7ARDwE2wsp2";
+        return url + "/dasboard/transaction/approval/edll7B9drDzwfFicDb2G";
     }
 
     @Step ( "I send request to transaction approved with transaction ID has previously been made" )

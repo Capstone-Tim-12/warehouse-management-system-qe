@@ -48,14 +48,14 @@
           "format": "integer"
         },
         "regencyName": {
-          "type": "string"
+          "$ref": "#/definitions/RegencyName"
         },
         "provinceId": {
           "type": "string",
           "format": "integer"
         },
         "provinceName": {
-          "type": "string"
+          "$ref": "#/definitions/ProvinceName"
         },
         "warehouseName": {
           "type": "string"
@@ -117,25 +117,44 @@
     "PaymentScheme": {
       "type": "string",
       "enum": [
-        "mingguan",
         "bulanan",
-        "tahunan"
+        "mingguan"
       ],
       "title": "PaymentScheme"
+    },
+    "ProvinceName": {
+      "type": "string",
+      "enum": [
+        "JAWA BARAT",
+        "DI YOGYAKARTA",
+        "ACEH"
+      ],
+      "title": "ProvinceName"
+    },
+    "RegencyName": {
+      "type": "string",
+      "enum": [
+        "KABUPATEN MAJALENGKA",
+        "KABUPATEN SLEMAN",
+        "KABUPATEN ACEH SINGKIL"
+      ],
+      "title": "RegencyName"
     },
     "Status": {
       "type": "string",
       "enum": [
         "butuh persetujuan",
-        "ditolak",
-        "disetujui"
+        "disetujui",
+        "ditolak"
       ],
       "title": "Status"
     },
     "Username": {
       "type": "string",
       "enum": [
-        "Mia Aprilia Satya"
+        "Mia Aprilia Satya",
+        "Diana Pacar Wonbin",
+        "wendy"
       ],
       "title": "Username"
     }

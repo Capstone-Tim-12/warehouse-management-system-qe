@@ -16,7 +16,7 @@ public class TransactionRejected {
 
     @Step ( "I set API endpoint valid for transaction rejected" )
     public String setAPIEndpointValidTransactionRejected() {
-        return url + "/dasboard/transaction/rejected/UFTGCR2nCdV2BSUDShQw";
+        return url + "/dasboard/transaction/rejected/4N9NZ2y2khKhbbMg0RyA";
     }
 
     @Step ( "I send request to transaction rejected" )
@@ -72,7 +72,7 @@ public class TransactionRejected {
 
     @Step ( "I set API endpoint invalid for can't transaction rejected with invalid transaction ID" )
     public String setAPIEndpointInvalidTransactionRejectedWithInvalidTransactionID() {
-        return url + "/dasboard/transaction/rejected/UFTGCR2nCdV2BSUDShQ";
+        return url + "/dasboard/transaction/rejected/4N9NZ2y2khKhbbMg0Ry";
     }
 
     @Step ( "I send request to transaction rejected with invalid transaction ID" )
@@ -97,7 +97,7 @@ public class TransactionRejected {
 
     @Step ( "I set API endpoint invalid for can't transaction rejected if the transaction ID has previously been made" )
     public String setAPIEndpointInvalidTransactionRejectedWithIDHasPreviouslyBeenMade() {
-        return url + "/dasboard/transaction/rejected/UFTGCR2nCdV2BSUDShQw";
+        return url + "/dasboard/transaction/rejected/4N9NZ2y2khKhbbMg0RyA";
     }
 
     @Step ( "I send request to transaction rejected with transaction ID has previously been made" )

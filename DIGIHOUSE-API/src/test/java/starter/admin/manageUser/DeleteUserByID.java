@@ -16,7 +16,7 @@ public class DeleteUserByID {
 
     @Step ( "I set API endpoint valid for delete user by ID" )
     public String setAPIEndpointValidDeleteUserByID() {
-        return url + "/dasboard/user/72";
+        return url + "/dasboard/user/108";
     }
 
     @Step ( "I send request to delete user by ID" )

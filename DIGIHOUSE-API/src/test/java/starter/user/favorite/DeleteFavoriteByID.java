@@ -16,7 +16,7 @@ public class DeleteFavoriteByID {
 
     @Step ( "I set API endpoint valid for delete favorite by ID" )
     public String setAPIEndpointValidDeleteFavoriteByID() {
-        return url + "/warehouse/favorit/64";
+        return url + "/warehouse/favorit/68";
     }
 
     @Step ( "I send request to delete favorite by ID" )

@@ -1,3 +1,3 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Get List Transaction User","As an admin I can get list transaction user with a valid path","SUCCESS","2023-12-18T11:06:53.503108+07:00[Asia/Jakarta]","0.0","2.02"
-"Get List Transaction User","As an admin I can't get list transaction user without path","SUCCESS","2023-12-18T11:06:55.539572+07:00[Asia/Jakarta]","0.0","1.1"
+"Get List Transaction User","As an admin I can get list transaction user with a valid path","SUCCESS","2023-12-20T03:53:01.692195+07:00[Asia/Jakarta]","0.0","2.07"
+"Get List Transaction User","As an admin I can't get list transaction user without path","SUCCESS","2023-12-20T03:53:03.769817+07:00[Asia/Jakarta]","0.0","1.06"

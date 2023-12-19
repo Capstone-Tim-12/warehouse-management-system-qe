@@ -20,7 +20,6 @@ public class JsonSchema {
     public static final String Update_Username_Response_Schema = "schema/user/setting/Update_Username_Response_Schema.json";
     public static final String Upload_Photo_Response_Schema = "schema/user/setting/Upload_Photo_Response_Schema.json";
     public static final String Update_Photo_Profile_Response_Schema = "schema/user/setting/Update_Photo_Profile_Response_Schema.json";
-    public static final String Update_Email_Response_Schema = "schema/user/setting/Update_Email_Response_Schema.json";
     public static final String Get_Profile_Response_Schema = "schema/user/setting/Get_Profile_Response_Schema.json";
     public static final String Get_My_Warehouse_Submitted_Response_Schema = "schema/user/warehouse/Get_My_Warehouse_Submitted_Response_Schema.json";
     public static final String Get_My_Warehouse_Rental_Response_Schema = "schema/user/warehouse/Get_My_Warehouse_Rental_Response_Schema.json";

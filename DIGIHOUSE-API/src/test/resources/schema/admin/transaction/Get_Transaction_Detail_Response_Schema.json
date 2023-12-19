@@ -27,36 +27,8 @@
       "type": "object",
       "additionalProperties": false,
       "properties": {
-        "warehouseId": {
-          "type": "integer"
-        },
         "warehouseName": {
           "type": "string"
-        },
-        "warehousePrice": {
-          "type": "integer"
-        },
-        "warehouseAdreess": {
-          "type": "string"
-        },
-        "warehouseDistrict": {
-          "type": "string"
-        },
-        "warehouseRegency": {
-          "type": "string"
-        },
-        "warehouseProvince": {
-          "type": "string"
-        },
-        "warehouseImage": {
-          "type": "string",
-          "format": "uri",
-          "qt-uri-protocols": [
-            "https"
-          ],
-          "qt-uri-extensions": [
-            ".jpg"
-          ]
         },
         "username": {
           "type": "string"
@@ -64,26 +36,49 @@
         "isVerifyIdentity": {
           "type": "boolean"
         },
-        "rentalDuration": {
+        "address": {
+          "type": "string"
+        },
+        "districName": {
+          "type": "string"
+        },
+        "regencyName": {
+          "type": "string"
+        },
+        "duration": {
           "type": "integer"
         },
         "paymentScheme": {
           "type": "string"
+        },
+        "entryDate": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "outDate": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "totalPayment": {
+          "type": "integer"
+        },
+        "instalment": {
+          "type": "null"
         }
       },
       "required": [
+        "address",
+        "districName",
+        "duration",
+        "entryDate",
+        "instalment",
         "isVerifyIdentity",
+        "outDate",
         "paymentScheme",
-        "rentalDuration",
+        "regencyName",
+        "totalPayment",
         "username",
-        "warehouseAdreess",
-        "warehouseDistrict",
-        "warehouseId",
-        "warehouseImage",
-        "warehouseName",
-        "warehousePrice",
-        "warehouseProvince",
-        "warehouseRegency"
+        "warehouseName"
       ],
       "title": "Data"
     }

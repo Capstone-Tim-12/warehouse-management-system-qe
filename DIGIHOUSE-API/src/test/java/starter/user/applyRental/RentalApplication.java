@@ -22,7 +22,7 @@ public class RentalApplication {
     @Step ( "I send request to rental application" )
     public void sendRequestRentalApplication() {
         JSONObject requestBody = new JSONObject();
-        int warehouseId = 71;
+        int warehouseId = 84;
         int paymentSchemeId = 1;
         int duration = 10;
         String dateEntry = "2024-01-01T21:30:56.789012345Z";
@@ -129,7 +129,7 @@ public class RentalApplication {
     @Step ( "I send invalid data entry request to rental application" )
     public void sendInvalidDataEntryRequestRentalApplication() {
         JSONObject requestBody = new JSONObject();
-        int warehouseId = 71;
+        int warehouseId = 84;
         int paymentSchemeId = 1;
         int duration = 10;
         String dateEntry = "2023-12-03T21:30:56.789012345Z";

@@ -1,3 +1,2 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Get Statistic","As an admin I can get statistic with a valid path","SUCCESS","2023-12-18T11:06:31.062835+07:00[Asia/Jakarta]","0.0","6.9"
-"Get Statistic","As an admin I can't get statistic without path","SUCCESS","2023-12-18T11:06:38.030788+07:00[Asia/Jakarta]","0.0","1.22"
+"Get Statistic","As an admin I can't get statistic without path","SUCCESS","2023-12-20T03:52:46.942645+07:00[Asia/Jakarta]","0.0","1.11"

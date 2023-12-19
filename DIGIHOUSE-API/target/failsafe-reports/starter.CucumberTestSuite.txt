@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: starter.CucumberTestSuite
 -------------------------------------------------------------------------------
-Tests run: 157, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 689.749 s <<< FAILURE! - in starter.CucumberTestSuite
-As a user I can get warehouse by ID with a valid path(Get Warehouse By ID)  Time elapsed: 4.028 s  <<< FAILURE!
+Tests run: 157, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 490.64 s <<< FAILURE! - in starter.CucumberTestSuite
+As a user I can get warehouse by ID with a valid path(Get Warehouse By ID)  Time elapsed: 2.854 s  <<< FAILURE!
 java.lang.AssertionError: 
 1 expectation failed.
 Response body doesn't match expectation.
@@ -20,7 +20,7 @@ error: object instance has properties which are not allowed by the schema: ["war
     keyword: "additionalProperties"
     unwanted: ["warehouseTypeId"]
 
-  Actual: {"status":true,"message":"Success","data":{"name":"Distribution Warehouse","description":"The warehouse is located in a strategic area and has close access to urban areas","provinceId":"51","provinceName":"BALI","regencyId":"5171","regencyName":"KOTA DENPASAR","districtId":"5171010","districtName":"DENPASAR SELATAN","address":"Jln Denpasar Bali","surfaceArea":2000,"buildingArea":3000,"owner":"Mia Aprilia Satya","phoneNumber":"085159932141","longitude":106.8456,"latitude":-6.2088,"status":"tidak tersedia","weeklyPrice":1153847,"monthlyPrice":5000000,"annualPrice":60000000,"warehouseTypeId":2,"warehouseType":"sedang","image":["https://www.dropbox.com/scl/fi/ggbnz3alfwh55s7hxx52y/file_xyVWYGUvLLFUsTJXHtKL.jpeg?rlkey=92z0l1y4u3cz4stsmypzork4q\u0026raw=1"]}}
+  Actual: {"status":true,"message":"Success","data":{"name":"Retailer 2 Warehouse","description":"The warehouse is located in a strategic area and has close access to urban areas","provinceId":"34","provinceName":"DI YOGYAKARTA","regencyId":"3404","regencyName":"KABUPATEN SLEMAN","districtId":"3404100","districtName":"KALASAN","address":"Jln Lebak Bulus V","surfaceArea":2000,"buildingArea":3000,"owner":"Mia Aprilia Satya","phoneNumber":"085159932141","longitude":106.8456,"latitude":-6.2088,"status":"tidak tersedia","weeklyPrice":9615385,"monthlyPrice":41666667,"annualPrice":500000000,"warehouseTypeId":1,"warehouseType":"kecil","image":["https://www.dropbox.com/scl/fi/izuhi0v5kdsq3bzzf1gdx/file_UBidK0fLmIydRKU61CaU.jpg?rlkey=9rrdl3zngy2wzumfqdl0w719g\u0026raw=1","https://www.dropbox.com/scl/fi/izuhi0v5kdsq3bzzf1gdx/file_UBidK0fLmIydRKU61CaU.jpg?rlkey=9rrdl3zngy2wzumfqdl0w719g\u0026raw=1","https://www.dropbox.com/scl/fi/2tson6smle7v750p5bti1/file_QZ8A6FWuOdBFlaMRIHbm.png?rlkey=v0obierxiwpm2wzms8re27qka\u0026raw=1","https://www.dropbox.com/scl/fi/izuhi0v5kdsq3bzzf1gdx/file_UBidK0fLmIydRKU61CaU.jpg?rlkey=9rrdl3zngy2wzumfqdl0w719g\u0026raw=1"]}}
 
 
 

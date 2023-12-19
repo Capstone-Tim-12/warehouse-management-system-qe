@@ -1,4 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Delete Warehouse By ID","As an admin I can delete warehouse by ID with a valid path","SUCCESS","2023-12-18T11:07:10.790131+07:00[Asia/Jakarta]","0.0","1.91"
-"Delete Warehouse By ID","As an admin I can't delete warehouse by ID without path","SUCCESS","2023-12-18T11:07:12.716875+07:00[Asia/Jakarta]","0.0","1.12"
-"Delete Warehouse By ID","As an admin I can't delete warehouse by ID with invalid ID","SUCCESS","2023-12-18T11:07:13.852795+07:00[Asia/Jakarta]","0.0","1.5"
+"Delete Warehouse By ID","As an admin I can delete warehouse by ID with a valid path","SUCCESS","2023-12-20T03:53:18.573097+07:00[Asia/Jakarta]","0.0","1.76"
+"Delete Warehouse By ID","As an admin I can't delete warehouse by ID without path","SUCCESS","2023-12-20T03:53:20.342066+07:00[Asia/Jakarta]","0.0","1.27"
+"Delete Warehouse By ID","As an admin I can't delete warehouse by ID with invalid ID","SUCCESS","2023-12-20T03:53:21.623521+07:00[Asia/Jakarta]","0.0","1.22"

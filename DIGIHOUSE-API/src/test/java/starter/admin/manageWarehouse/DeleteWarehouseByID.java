@@ -16,7 +16,7 @@ public class DeleteWarehouseByID {
 
     @Step ( "I set API endpoint valid for delete warehouse by ID" )
     public String setAPIEndpointValidDeleteWarehouseByID() {
-        return url + "/warehouse/detail/81";
+        return url + "/warehouse/detail/85";
     }
 
     @Step ( "I send request to delete warehouse by ID" )

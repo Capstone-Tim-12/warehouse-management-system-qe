@@ -87,6 +87,9 @@
         "annualPrice": {
           "type": "integer"
         },
+        "warehouseTypeId": {
+          "type": "integer"
+        },
         "warehouseType": {
           "type": "string"
         },
@@ -96,10 +99,11 @@
             "type": "string",
             "format": "uri",
             "qt-uri-protocols": [
-              "http"
+              "https"
             ],
             "qt-uri-extensions": [
-              ".jpg"
+              ".jpg",
+              ".png"
             ]
           }
         }
@@ -125,6 +129,7 @@
         "status",
         "surfaceArea",
         "warehouseType",
+        "warehouseTypeId",
         "weeklyPrice"
       ],
       "title": "Data"

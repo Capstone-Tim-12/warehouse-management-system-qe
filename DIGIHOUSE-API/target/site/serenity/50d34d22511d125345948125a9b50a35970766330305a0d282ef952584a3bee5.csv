@@ -1,4 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Update Warehouse By ID","As an admin I can update warehouse by ID with a valid path","SUCCESS","2023-12-18T11:07:31.624191+07:00[Asia/Jakarta]","0.0","2.06"
-"Update Warehouse By ID","As an admin I can't update warehouse by ID without path","SUCCESS","2023-12-18T11:07:33.69926+07:00[Asia/Jakarta]","0.0","1.25"
-"Update Warehouse By ID","As an admin I can't update warehouse by ID with invalid ID","SUCCESS","2023-12-18T11:07:34.961356+07:00[Asia/Jakarta]","0.0","1.64"
+"Update Warehouse By ID","As an admin I can update warehouse by ID with a valid path","SUCCESS","2023-12-20T03:53:38.228812+07:00[Asia/Jakarta]","0.0","1.91"
+"Update Warehouse By ID","As an admin I can't update warehouse by ID without path","SUCCESS","2023-12-20T03:53:40.146175+07:00[Asia/Jakarta]","0.0","1.09"
+"Update Warehouse By ID","As an admin I can't update warehouse by ID with invalid ID","SUCCESS","2023-12-20T03:53:41.259927+07:00[Asia/Jakarta]","0.0","1.51"

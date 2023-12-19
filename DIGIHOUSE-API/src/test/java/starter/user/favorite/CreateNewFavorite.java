@@ -26,7 +26,7 @@ public class CreateNewFavorite {
     public void sendRequestCreateNewFavorite() {
         String Token = GenerateToken.generateToken();
         JSONObject requestBody = new JSONObject();
-        int warehouseId = 68;
+        int warehouseId = 11;
         requestBody.put("warehouseId", warehouseId);
         SerenityRest.given()
                 .header("Content-Type","application/json")

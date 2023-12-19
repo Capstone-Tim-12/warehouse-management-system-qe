@@ -1,4 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Get User By ID","As an admin I can get user by ID with a valid path","SUCCESS","2023-12-18T11:07:00.061071+07:00[Asia/Jakarta]","0.0","1.29"
-"Get User By ID","As an admin I can't get user by ID without path","SUCCESS","2023-12-18T11:07:01.365456+07:00[Asia/Jakarta]","0.0","1.22"
-"Get User By ID","As an admin I can't get user by ID with invalid ID","SUCCESS","2023-12-18T11:07:02.594832+07:00[Asia/Jakarta]","0.0","1.24"
+"Get User By ID","As an admin I can get user by ID with a valid path","SUCCESS","2023-12-20T03:53:07.969526+07:00[Asia/Jakarta]","0.0","1.42"
+"Get User By ID","As an admin I can't get user by ID without path","SUCCESS","2023-12-20T03:53:09.40062+07:00[Asia/Jakarta]","0.0","1.23"
+"Get User By ID","As an admin I can't get user by ID with invalid ID","SUCCESS","2023-12-20T03:53:10.645735+07:00[Asia/Jakarta]","0.0","1.22"

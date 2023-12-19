@@ -126,8 +126,7 @@
       "type": "string",
       "enum": [
         "DI YOGYAKARTA",
-        "JAWA BARAT",
-        "ACEH"
+        "JAWA BARAT"
       ],
       "title": "ProvinceName"
     },
@@ -135,25 +134,23 @@
       "type": "string",
       "enum": [
         "KABUPATEN SLEMAN",
-        "KABUPATEN MAJALENGKA",
-        "KABUPATEN ACEH SINGKIL"
+        "KABUPATEN MAJALENGKA"
       ],
       "title": "RegencyName"
     },
     "Status": {
       "type": "string",
       "enum": [
-        "disetujui",
         "butuh persetujuan",
-        "ditolak"
+        "ditolak",
+        "disetujui"
       ],
       "title": "Status"
     },
     "Username": {
       "type": "string",
       "enum": [
-        "Mia Aprilia Satya",
-        "Diana Pacar Wonbin"
+        "Mia Aprilia Satya"
       ],
       "title": "Username"
     }

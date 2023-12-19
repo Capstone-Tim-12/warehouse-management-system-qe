@@ -1,4 +1,4 @@
-name: DIGIHOUSE API TESTING PIPELINE CI
+name: API Testing in CI Pipeline
 
 on:
   push:
@@ -16,5 +16,5 @@ jobs:
           distribution: 'adopt'
       - name: Build and Test with Maven
         run: mvn --batch-mode --update-snapshots verify
-      - name: Testing API
+      - name: Test API
         run: mvn clean verify

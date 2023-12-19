@@ -16,5 +16,5 @@ jobs:
           distribution: 'adopt'
       - name: Build and Test with Maven
         run: mvn --batch-mode --update-snapshots verify
-      - name: Test API
+      - name: Testing API
         run: mvn clean verify
